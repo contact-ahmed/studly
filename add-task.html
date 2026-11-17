@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Add Task - Studly</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="js/script.js" defer></script>
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header class="header">
+        <nav class="navbar">
+
+            <div class="logo">
+                <a href="index.html">Studly.</a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="tasks.html">My Tasks</a></li>
+                <li><a href="add-task.html" class="active">Add Task</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Add Task Main Section -->
+    <main class="add-task-page">
+
+        <section class="page-heading">
+            <h1>Add New Task</h1>
+
+            <p>
+                Add your assignments, projects and other
+                academic activities to stay organized.
+            </p>
+        </section>
+
+
+        <!-- Task Form -->
+        <section class="task-form-container">
+
+            <form id="task-form">
+
+                <div class="form-group">
+                    <label for="task-title">Task Title</label>
+
+                    <input
+                        type="text"
+                        id="task-title"
+                        placeholder="Enter task title"
+                        required
+                    >
+                </div>
+
+
+                <div class="form-group">
+                    <label for="task-subject">Subject</label>
+
+                    <input
+                        type="text"
+                        id="task-subject"
+                        placeholder="Enter subject name"
+                        required
+                    >
+                </div>
+
+
+                <div class="form-group">
+                    <label for="task-date">Due Date</label>
+
+                    <input
+                        type="date"
+                        id="task-date"
+                        required
+                    >
+                </div>
+
+
+                <div class="form-group">
+                    <label for="task-priority">Priority</label>
+
+                    <select id="task-priority" required>
+
+                        <option value="">Select Priority</option>
+
+                        <option value="low">Low</option>
+
+                        <option value="medium">Medium</option>
+
+                        <option value="high">High</option>
+
+                    </select>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="task-description">
+                        Description
+                    </label>
+
+                    <textarea
+                        id="task-description"
+                        rows="5"
+                        placeholder="Write task details..."
+                    ></textarea>
+                </div>
+
+
+                <div class="form-buttons">
+
+                    <button type="submit" class="btn">
+                        Add Task
+                    </button>
+
+                    <a href="tasks.html" class="cancel-btn">
+                        Cancel
+                    </a>
+
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+  
+<!-- Footer -->
+<footer class="footer">
+
+    <p class="team-credit">
+        Made by:
+        <strong>Muhammad Ahmed (Leader)</strong>,
+        Ameer Hamza and Muhammad Atif
+    </p>
+
+    <p class="linkedin-link">
+        Connect with Muhammad Ahmed:
+    </p>
+
+    <a
+        class="linkedin-profile"
+        href="https://www.linkedin.com/in/muhammad-ahmed-29485931b/"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        <span class="linkedin-icon">in</span>
+        LinkedIn Profile
+    </a>
+
+</footer>
+
+</body>
+</html>

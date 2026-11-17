@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Tasks - Studly</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="js/script.js" defer></script>
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <a href="index.html">Studly.</a>
+            </div>
+
+            <ul class="nav-links">
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="dashboard.html">Dashboard</a></li>
+
+                <li><a href="tasks.html" class="active">My Tasks</a></li>
+
+                <li><a href="add-task.html">Add Task</a></li>
+
+                <li><a href="about.html">About</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Main Content -->
+    <main class="tasks-page">
+
+        <!-- Page Heading -->
+        <section class="page-heading">
+
+            <div>
+                <h1>My Tasks</h1>
+
+                <p>Organize your assignments and keep track of your progress.</p>
+            </div>
+
+            <a href="add-task.html" class="btn">
+                + Add New Task
+            </a>
+
+        </section>
+
+
+        <!-- Task List -->
+        <section class="task-list" id="task-list">
+
+            <!-- Task One -->
+            <div class="task-card">
+
+                <div class="task-info">
+
+                    <h3>Complete ICT Project</h3>
+
+                    <p>Subject: ICT</p>
+
+                    <p>Due Date: November 20, 2026</p>
+
+                </div>
+
+                <div class="task-details">
+
+                    <span class="priority high">High</span>
+
+                    <span class="task-status pending">Pending</span>
+
+                    <button class="complete-btn">
+                        Mark Complete
+                    </button>
+
+                    <button class="delete-btn">
+                        Delete
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Task Two -->
+            <div class="task-card">
+
+                <div class="task-info">
+
+                    <h3>JavaScript Practice</h3>
+
+                    <p>Subject: Web Development</p>
+
+                    <p>Due Date: November 22, 2026</p>
+
+                </div>
+
+                <div class="task-details">
+
+                    <span class="priority medium">Medium</span>
+
+                    <span class="task-status pending">Pending</span>
+
+                    <button class="complete-btn">
+                        Mark Complete
+                    </button>
+
+                    <button class="delete-btn">
+                        Delete
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Task Three -->
+            <div class="task-card">
+
+                <div class="task-info">
+
+                    <h3>Database Assignment</h3>
+
+                    <p>Subject: Database Systems</p>
+
+                    <p>Due Date: November 25, 2026</p>
+
+                </div>
+
+                <div class="task-details">
+
+                    <span class="priority low">Low</span>
+
+                    <span class="task-status completed">Completed</span>
+
+                    <button class="complete-btn">
+                        Completed
+                    </button>
+
+                    <button class="delete-btn">
+                        Delete
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Empty State -->
+        <p id="empty-message" hidden>
+            No tasks found.
+        </p>
+
+    </main>
+
+
+    <!-- Footer -->
+    
+<!-- Footer -->
+<footer class="footer">
+
+    <p class="team-credit">
+        Made by:
+        <strong>Muhammad Ahmed (Leader)</strong>,
+        Ameer Hamza and Muhammad Atif
+    </p>
+
+    <p class="linkedin-link">
+        Connect with Muhammad Ahmed:
+    </p>
+
+    <a
+        class="linkedin-profile"
+        href="https://www.linkedin.com/in/muhammad-ahmed-29485931b/"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        <span class="linkedin-icon">in</span>
+        LinkedIn Profile
+    </a>
+
+</footer>
+
+</body>
+
+</html>

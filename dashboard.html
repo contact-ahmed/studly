@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard - Studly</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript File -->
+    <script src="js/script.js" defer></script>
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+
+        <nav class="navbar">
+
+            <!-- Website Logo -->
+            <div class="logo">
+                <a href="index.html">Studly.</a>
+            </div>
+
+            <!-- Navigation Links -->
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="dashboard.html" class="active">Dashboard</a>
+                </li>
+
+                <li>
+                    <a href="tasks.html">My Tasks</a>
+                </li>
+
+                <li>
+                    <a href="add-task.html">Add Task</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Main Dashboard -->
+    <main class="dashboard">
+
+        <!-- Dashboard Heading -->
+        <section class="dashboard-heading">
+
+            <div>
+                <h1>Dashboard</h1>
+
+                <p>
+                    Here's an overview of your academic tasks and progress.
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- Statistics Section -->
+        <section class="stats-container">
+
+            <!-- Total Tasks -->
+            <div class="stat-card">
+
+                <h3>Total Tasks</h3>
+
+                <p class="stat-number" id="total-tasks">0</p>
+
+                <p>All your tasks</p>
+
+            </div>
+
+
+            <!-- Completed Tasks -->
+            <div class="stat-card">
+
+                <h3>Completed</h3>
+
+                <p class="stat-number" id="completed-tasks">0</p>
+
+                <p>Tasks completed</p>
+
+            </div>
+
+
+            <!-- Pending Tasks -->
+            <div class="stat-card">
+
+                <h3>Pending</h3>
+
+                <p class="stat-number" id="pending-tasks">0</p>
+
+                <p>Tasks remaining</p>
+
+            </div>
+
+
+            <!-- Due Tasks -->
+            <div class="stat-card">
+
+                <h3>Due Soon</h3>
+
+                <p class="stat-number" id="due-tasks">0</p>
+
+                <p>Upcoming deadlines</p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Pending Tasks Section -->
+        <section class="dashboard-content">
+
+            <div class="dashboard-card">
+
+                <h2>My Pending Tasks</h2>
+
+                <div class="deadline-list" id="pending-list">
+
+                    <!-- Pending tasks will appear here through JavaScript -->
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Quick Action -->
+        <section class="quick-action">
+
+            <h2>Have a new assignment?</h2>
+
+            <p>
+                Don't forget your deadlines. Add your next task now!
+            </p>
+
+            <a href="add-task.html" class="btn">
+                + Add New Task
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <p class="team-credit">
+            Made by:
+            <strong>Muhammad Ahmed (Leader)</strong>,
+            Ameer Hamza and Muhammad Atif
+        </p>
+
+        <p class="linkedin-link">
+            Connect with Muhammad Ahmed:
+        </p>
+
+        <a
+            class="linkedin-profile"
+            href="https://www.linkedin.com/in/muhammad-ahmed-29485931b/"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <span class="linkedin-icon">in</span>
+            LinkedIn Profile
+        </a>
+
+    </footer>
+
+</body>
+
+</html>
